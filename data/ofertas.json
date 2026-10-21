@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Frutas",
+      "product_count": 0
+    },
+    {
+      "id": 2,
+      "name": "Verduras",
+      "product_count": 0
+    },
+    {
+      "id": 3,
+      "name": "Legumes",
+      "product_count": 0
+    },
+    {
+      "id": 4,
+      "name": "Temperos",
+      "product_count": 0
+    }
+  ],
+  "products": [],
+  "featured": [],
+  "offers_count": 0,
+  "last_update": null,
+  "whatsapp_ready": true,
+  "whatsapp_link": "https://wa.me/5515997254985?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20as%20ofertas%20de%20hoje.",
+  "instagram_ready": true,
+  "instagram_url": "https://www.instagram.com/hortifrutibompreco2026/",
+  "facebook_ready": false,
+  "facebook_url": ""
+}

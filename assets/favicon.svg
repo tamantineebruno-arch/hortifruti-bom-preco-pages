@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <radialGradient id="or" cx="38%" cy="32%" r="75%">
+      <stop offset="0%" stop-color="#FFB25C"/>
+      <stop offset="45%" stop-color="#F47A13"/>
+      <stop offset="100%" stop-color="#D9610A"/>
+    </radialGradient>
+    <linearGradient id="lf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#69B52F"/>
+      <stop offset="100%" stop-color="#247A2D"/>
+    </linearGradient>
+    <ellipse id="shine" cx="0" cy="0" rx="26" ry="14" fill="#FFFFFF" opacity=".35"/>
+  </defs>
+  <!-- laranja -->
+  <circle cx="150" cy="168" r="98" fill="url(#or)"/>
+  <circle cx="150" cy="168" r="98" fill="none" stroke="#C4550A" stroke-width="2" opacity=".5"/>
+  <use href="#shine" transform="translate(114 122) rotate(-18)"/>
+  <g fill="none" stroke="#C4550A" stroke-width="1.4" opacity=".28">
+    <path d="M150 70v14M150 252v14M52 168h14M234 168h14M82 100l10 10M218 236l-10-10M218 100l-10 10M82 236l10-10"/>
+  </g>
+  <!-- cabinho -->
+  <path d="M148 74c0-12 4-20 12-26" stroke="#6B4423" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <!-- folhas -->
+  <path d="M160 58c26-26 58-28 76-22-4 24-22 50-58 46-14-1.5-22-14-18-24z" fill="url(#lf)"/>
+  <path d="M166 54c20-16 42-22 62-18-10 18-32 36-62 18z" fill="#69B52F" opacity=".5"/>
+  <path d="M146 62c-20-16-44-16-58-8 6 20 26 38 52 30 12-4 14-16 6-22z" fill="#247A2D"/>
+</svg>
